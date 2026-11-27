@@ -12,6 +12,7 @@
 | M4 | 持续告警 | TimedAlarm处理证据 | `src/chillwatch/persistence_filter/contracts.py` `src/chillwatch/persistence_filter/algorithm.py` `src/chillwatch/persistence_filter/service.py` `src/chillwatch/persistence_filter/episode_ledger.py` | `tests/test_persistence_filter.py` `tests/test_episode_ledger.py` |
 | M5 | 停机排程 | WorkCandidate处理证据 | `src/chillwatch/maintenance_slots/contracts.py` `src/chillwatch/maintenance_slots/algorithm.py` `src/chillwatch/maintenance_slots/service.py` `src/chillwatch/maintenance_slots/work_order_proof.py` `src/chillwatch/maintenance_slots/coverage_plan.py` | `tests/test_maintenance_slots.py` `tests/test_work_order_proof.py` `tests/test_coverage_plan.py` |
 | M6 | 班次复盘 | ClosedIncident处理证据 | `src/chillwatch/shift_review/contracts.py` `src/chillwatch/shift_review/algorithm.py` `src/chillwatch/shift_review/service.py` `src/chillwatch/shift_review/alarm_counterfactual.py` | `tests/test_shift_review.py` `tests/test_alarm_counterfactual.py` |
+| M7 | 故障分诊 | 已确认告警裁定主责/联合复核/转下一班与幂等分诊单 | `src/chillwatch/fault_triage/contracts.py` `src/chillwatch/fault_triage/algorithm.py` `src/chillwatch/fault_triage/service.py` `src/chillwatch/fault_triage/ledger.py` | `tests/test_fault_triage.py` |
 
 ## 边界登记
 
@@ -26,3 +27,6 @@
 | TRAP-44 | 训练域外读数隔离为人工复查 | `src/chillwatch/robust_alarm/algorithm.py` | `tests/test_robust_alarm.py::test_out_of_domain_reading_is_not_automated_high_confidence` |
 | TRAP-53 | 与陌生设备拼批不改已知设备得分 | `src/chillwatch/robust_alarm/algorithm.py` | `tests/test_robust_alarm.py::test_single_point_stays_fixed_in_python_batches` |
 | TRAP-54 | 历史或超参变化会改变基线版本号 | `src/chillwatch/duty_reference/algorithm.py` | `tests/test_duty_reference.py::test_training_key_carries_upstream_digest_and_configuration` |
+| TRAP-61 | 偏离最大的一次振动尖峰不能成为主责，持久压力侧仍主责 | `src/chillwatch/fault_triage/algorithm.py` | `tests/test_fault_triage.py::test_max_deviation_single_spike_cannot_become_owner` |
+| TRAP-62 | 读数冲突或通道缺失压过窗口/偏离，只能联合复核 | `src/chillwatch/fault_triage/algorithm.py` | `tests/test_fault_triage.py::test_reading_conflict_forces_joint_review_even_with_window_and_owner_signal` |
+| TRAP-63 | 保存中断后从已确认检查点恢复，重跑不重复生成分诊单 | `src/chillwatch/fault_triage/ledger.py` | `tests/test_fault_triage.py::test_rerun_never_duplicates_triage_orders` |

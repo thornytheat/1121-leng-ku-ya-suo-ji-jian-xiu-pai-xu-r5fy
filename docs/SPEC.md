@@ -71,6 +71,24 @@
 - `confirmed` 类型 `bool`。
 - `measured` 类型 `int`，有效范围 0–10000000。
 
+### 故障分诊
+
+把已确认告警按通道线索整理成可交班的去向。输入记录（字段接受常见同义命名）：
+
+- `unit` 类型 `str`。
+- `pressure_z` / `vibration_z`（或 `*_deviation`）类型 `float`，通道归一化偏离。
+- `pressure_points` / `vibration_points` 类型 `int`，该通道连续成线的读数点数；`1` 即一次尖峰。
+- `pressure_duration` / `vibration_duration` 类型 `float`，线索持续分钟。
+- `pressure_history` / `vibration_history`（或 `history='bearing'|'压力'`）类型 `bool|str`，历史工况是否同因。
+- `conflict` 类型 `bool`，读数/修订冲突。
+- `missing_channels` 类型 `str|list`（或 `channels={...:None}`），缺失通道。
+- `window_remaining` / `recheck_minutes` 类型 `float`，本班剩余窗口与两边复验所需分钟。
+- `next_shift_recheck` 类型 `bool|object`，下一班是否具备复查窗口/通道条件。
+
+裁定优先级固定为：读数冲突或通道缺失只能 `JOINT_REVIEW`（联合复核）；未确认告警为 `MONITOR`；一次尖峰不具备主责资格；仅一侧持续成线（默认至少 2 点或持续 10 分钟）时由该侧 `PRIMARY`（主责，压力=制冷压力工、振动=机械振动工）；两侧都持续指向不同故障时，本班窗口够则联合复核，不够且下一班可复查则 `NEXT_SHIFT`（转下一班），下一班不能复查时仍在本班联合复核。输出同时带英文码（`decision`/`reason_code`）、中文去向（`verdict`）、责任工种（`owner`/`trade`）和 `pending_reason`（未决原因）。
+
+分诊单以 `(shift, unit)` 为幂等键。`TriageLedger.save` 中途失败抛出 `TriageSaveError`，此前单据保持 `confirmed` 并记录 `checkpoint`；`recover()` 从检查点之后继续，`rerun()` 与进程重启后的文件台账都不会为同一机组重复生单。可复现样例见 `sample_data/fault_triage_cases.json`（别名 `triage_cases.json`），覆盖压力主责、振动主责、最大偏离是尖峰、读数冲突、通道缺失、本班联合复核、转下一班、下班不可复查、孤立尖峰与历史裁定十一种情形。
+
 ## 复查证据
 
 运行结果的 `reconciliation` 保存读数缺档、参考窗漂移计量、不同阈值的触发对比、持续告警起止、停机计划验算及按班组数重试的候选排程。备用设备、区间冲突和工单截止仍由同一现场约束负责。替代排程优先覆盖高分告警，其次比较工单数和累计完成分钟。历史阈值试算保留未查获成本、误检成本与已确认故障召回区间，仅用于有现场结单结果的样本。

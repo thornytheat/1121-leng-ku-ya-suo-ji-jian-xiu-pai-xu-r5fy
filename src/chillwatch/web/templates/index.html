@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="/static/layout.css">
   <script defer src="/static/visual-data.js"></script>
   <script defer src="/static/workbench.js"></script>
+  <script defer src="/static/triage.js"></script>
 </head>
 <body data-project="chillwatch">
   <a href="#main" class="skip">跳到业务结果</a>
@@ -17,6 +18,7 @@
       <h2>冷库机务</h2>
       <nav aria-label="业务环节">
         {% for slug, label in modules %}<button type="button" data-stage="{{ slug }}" aria-pressed="false">{{ label }}</button>{% endfor %}
+        <button type="button" id="nav-triage-desk" aria-pressed="false">故障分诊交班</button>
       </nav>
     </aside>
     <main class="content" id="main">
@@ -41,9 +43,53 @@
         <section class="panel decisions" aria-labelledby="decision-heading">
           <div class="panel-heading"><h2 id="decision-heading">待检修设备</h2><p id="row-count"></p>
           <input id="row-filter" type="search" autocomplete="off" aria-label="筛选记录" placeholder="筛选记录"></div>
-          <div id="rows" class="table-scroll" tabindex="0" role="region" aria-label="待检修设备"></div>
+          <div id="rows" class="table-scroll" tabindex="0" role="region" aria-label="待检修设备">
+            <table class="server-rows">
+              <thead><tr>{% for key, label in board_columns.items() %}<th scope="col">{{ label }}</th>{% endfor %}</tr></thead>
+              <tbody>
+              {% for row in board_rows %}
+                <tr data-unit="{{ row.unit }}">
+                  {% for key, label in board_columns.items() %}<td data-key="{{ key }}">{% if row[key] is not none %}{{ row[key] }}{% else %}—{% endif %}</td>{% endfor %}
+                </tr>
+              {% endfor %}
+              </tbody>
+            </table>
+          </div>
         </section>
       </div>
+
+      <section class="panel triage-desk" id="triage-desk" aria-labelledby="triage-heading">
+        <div class="panel-heading triage-head">
+          <h2 id="triage-heading">故障分诊交班</h2>
+          <p id="triage-ledger-status" role="status">已载入可复现分诊样例，可保存分诊单或模拟保存失败后恢复</p>
+          <div class="triage-actions">
+            <button id="triage-save" class="primary" type="button">保存分诊单</button>
+            <button id="triage-fail" class="quiet" type="button">模拟保存失败</button>
+            <button id="triage-recover" class="quiet" type="button" disabled>从已确认分诊处恢复</button>
+            <button id="triage-rerun" class="quiet" type="button">重跑（不重复生单）</button>
+            <button id="triage-reset" class="quiet" type="button">重置</button>
+          </div>
+        </div>
+        <p class="triage-legend">裁定口径：<strong>一次尖峰不能成为主责</strong>；<strong>读数冲突或通道缺失只能进入复核</strong>；压力与振动分别持续指向不同故障时，依据线索持续时间、历史工况与下一班可复查条件，裁定 <span class="badge badge-primary">主责</span> <span class="badge badge-joint">联合复核</span> <span class="badge badge-next">转下一班</span>。下表逐台给出 &ldquo;去向&rdquo; 与 &ldquo;未决原因&rdquo;。</p>
+        <div id="triage-summary" class="triage-summary" aria-live="polite"></div>
+        <div id="triage-rows" class="table-scroll triage-scroll" tabindex="0" role="region" aria-label="故障分诊：每台机组的去向和未决原因">
+          <table class="triage-table">
+            <thead><tr>{% for key, label in triage_columns.items() %}<th scope="col" data-key="{{ key }}">{{ label }}</th>{% endfor %}<th scope="col">分诊单/保存</th></tr></thead>
+            <tbody>
+            {% for record in triage_records %}
+              <tr data-unit="{{ record.unit }}" data-decision="{{ record.decision }}">
+                {% for key, label in triage_columns.items() %}
+                  {% if key == 'verdict' %}<td><span class="badge badge-{{ record.decision | lower }}">{{ record.verdict }}</span></td>
+                  {% else %}<td data-key="{{ key }}">{{ record[key] if record[key] is not none else '—' }}</td>{% endif %}
+                {% endfor %}
+                <td class="triage-ticket" data-unit="{{ record.unit }}">未保存</td>
+              </tr>
+            {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
       <footer class="statusbar">
         <span id="status" role="status">正在载入样例</span>
         <span>运行指纹 <code id="run-id">—</code> · <a href="/api/overview">运行数据</a></span>

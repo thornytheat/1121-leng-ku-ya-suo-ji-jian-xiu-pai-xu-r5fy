@@ -18,6 +18,15 @@ docker compose up --build -d
 - 持续告警 `persistence_filter`
 - 停机排程 `maintenance_slots`
 - 班次复盘 `shift_review`
+- 故障分诊 `fault_triage`：已确认告警 → 主责 / 联合复核 / 转下一班，带保存恢复与幂等台账
+
+## 故障分诊交班
+
+工作台底部「故障分诊交班」逐台给出去向、责任工种、压力/振动线索、持续与历史依据以及未决原因。一次尖峰不会成为主责；读数冲突或通道缺失只会进入联合复核。可点击「模拟保存失败」复现第 3 张分诊单中断，再「从已确认分诊处恢复」，或「重跑」验证不会重复生单。
+
+- `GET /api/triage` 返回分诊记录与台账状态；`GET /api/stages/fault_triage` 返回同一环节证据。
+- `POST /api/triage/save`、`/api/triage/recover`、`/api/triage/rerun`、`/api/triage/reset` 驱动保存/恢复/幂等重跑；保存中断返回 `TRIAGE_SAVE_FAILED` 与已确认检查点。
+- 可复现样例：`sample_data/fault_triage_cases.json`。
 
 ## 查看运行结果
 
