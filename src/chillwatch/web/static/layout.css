@@ -1,0 +1,17 @@
+.shell {display:grid;grid-template-columns:180px minmax(0,1fr);min-height:100vh;}
+.board {display:grid;grid-template-columns:minmax(0, 1.65fr) minmax(0, 1fr);grid-template-areas:"signal evidence" "decisions decisions";gap:10px;}
+.signal {grid-area:signal;} .decisions {grid-area:decisions;} .evidence {grid-area:evidence;}
+.masthead { border-top: 4px solid var(--accent); background: linear-gradient(110deg,var(--wash),var(--surface) 63%); } .signal { border-left: 4px solid var(--accent); } .kpi { border-bottom: 2px solid var(--border); } .rail h2::before {content:"●";color:var(--accent);margin-right:9px;} .panel h2 {font-weight:550;} 
+@media (max-width:1030px) {.board {grid-template-columns:minmax(0,1fr);grid-template-areas:"signal" "decisions" "evidence";}}
+@media (max-width:710px) {
+    .shell {grid-template-columns:minmax(0,1fr);}
+    .rail {padding:10px 14px;border-radius:0;}
+    .rail h2 {margin:0 0 4px;}
+    .rail nav {display:flex;flex-direction:row;overflow:auto;}
+    .rail button {white-space:nowrap;}
+    .content {padding:14px;}
+    .masthead {padding:13px;}
+    .masthead h1 {font-size:clamp(24px,7vw,33px);}
+    .kpis {grid-template-columns:repeat(2,minmax(0,1fr));}
+    .berth-funnel {grid-template-columns:repeat(2,minmax(0,1fr));}
+}

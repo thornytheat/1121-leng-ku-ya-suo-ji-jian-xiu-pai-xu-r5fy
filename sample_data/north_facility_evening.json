@@ -1,0 +1,1824 @@
+{
+  "meter": [
+    {
+      "unit": "F-01",
+      "minute": 550,
+      "reported": 551,
+      "pressure": 972,
+      "scale": "kPa",
+      "vibration": 2.3,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-01",
+      "minute": 560,
+      "reported": 562,
+      "pressure": 972,
+      "scale": "kPa",
+      "vibration": 3.96,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-01",
+      "minute": 570,
+      "reported": 571,
+      "pressure": 972,
+      "scale": "kPa",
+      "vibration": 3.96,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-01",
+      "minute": 580,
+      "reported": 582,
+      "pressure": 972,
+      "scale": "kPa",
+      "vibration": 3.96,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-02",
+      "minute": 550,
+      "reported": 551,
+      "pressure": 984,
+      "scale": "kPa",
+      "vibration": 2.5000000000000004,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-02",
+      "minute": 560,
+      "reported": 562,
+      "pressure": 984,
+      "scale": "kPa",
+      "vibration": 4.220000000000001,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-02",
+      "minute": 570,
+      "reported": 571,
+      "pressure": 984,
+      "scale": "kPa",
+      "vibration": 4.220000000000001,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-02",
+      "minute": 580,
+      "reported": 582,
+      "pressure": 984,
+      "scale": "kPa",
+      "vibration": 4.220000000000001,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-03",
+      "minute": 550,
+      "reported": 551,
+      "pressure": 9.96,
+      "scale": "bar",
+      "vibration": 2.49,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-03",
+      "minute": 560,
+      "reported": 562,
+      "pressure": 9.96,
+      "scale": "bar",
+      "vibration": 4.09,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-03",
+      "minute": 570,
+      "reported": 571,
+      "pressure": 9.96,
+      "scale": "bar",
+      "vibration": 4.09,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-03",
+      "minute": 580,
+      "reported": 582,
+      "pressure": 9.96,
+      "scale": "bar",
+      "vibration": 4.09,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-04",
+      "minute": 550,
+      "reported": 551,
+      "pressure": 1008,
+      "scale": "kPa",
+      "vibration": 2.69,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-04",
+      "minute": 560,
+      "reported": 562,
+      "pressure": 1008,
+      "scale": "kPa",
+      "vibration": 2.69,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-04",
+      "minute": 570,
+      "reported": 571,
+      "pressure": 1008,
+      "scale": "kPa",
+      "vibration": 2.69,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-04",
+      "minute": 580,
+      "reported": 582,
+      "pressure": 1008,
+      "scale": "kPa",
+      "vibration": 2.69,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-05",
+      "minute": 550,
+      "reported": 551,
+      "pressure": 1020,
+      "scale": "kPa",
+      "vibration": 2.89,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-05",
+      "minute": 560,
+      "reported": 562,
+      "pressure": 1020,
+      "scale": "kPa",
+      "vibration": 4.61,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-05",
+      "minute": 570,
+      "reported": 571,
+      "pressure": 1020,
+      "scale": "kPa",
+      "vibration": 4.61,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-05",
+      "minute": 580,
+      "reported": 582,
+      "pressure": 1020,
+      "scale": "kPa",
+      "vibration": 4.61,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-06",
+      "minute": 550,
+      "reported": 551,
+      "pressure": 1032,
+      "scale": "kPa",
+      "vibration": 2.88,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-06",
+      "minute": 560,
+      "reported": 562,
+      "pressure": 1032,
+      "scale": "kPa",
+      "vibration": 4.48,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-06",
+      "minute": 570,
+      "reported": 571,
+      "pressure": 1032,
+      "scale": "kPa",
+      "vibration": 4.48,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-06",
+      "minute": 580,
+      "reported": 582,
+      "pressure": 1032,
+      "scale": "kPa",
+      "vibration": 4.48,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-07",
+      "minute": 550,
+      "reported": 551,
+      "pressure": 1044,
+      "scale": "kPa",
+      "vibration": 3.08,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-07",
+      "minute": 560,
+      "reported": 562,
+      "pressure": 1044,
+      "scale": "kPa",
+      "vibration": 4.74,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-07",
+      "minute": 570,
+      "reported": 571,
+      "pressure": 1044,
+      "scale": "kPa",
+      "vibration": 4.74,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-07",
+      "minute": 580,
+      "reported": 582,
+      "pressure": 1044,
+      "scale": "kPa",
+      "vibration": 4.74,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-08",
+      "minute": 550,
+      "reported": 551,
+      "pressure": 1056,
+      "scale": "kPa",
+      "vibration": 3.2800000000000002,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-08",
+      "minute": 560,
+      "reported": 562,
+      "pressure": 1056,
+      "scale": "kPa",
+      "vibration": 3.2800000000000002,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-08",
+      "minute": 570,
+      "reported": 571,
+      "pressure": 1056,
+      "scale": "kPa",
+      "vibration": 16.94,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-08",
+      "minute": 580,
+      "reported": 582,
+      "pressure": 1056,
+      "scale": "kPa",
+      "vibration": 16.94,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-09",
+      "minute": 550,
+      "reported": 551,
+      "pressure": 1068,
+      "scale": "kPa",
+      "vibration": 3.27,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-09",
+      "minute": 560,
+      "reported": 562,
+      "pressure": 1068,
+      "scale": "kPa",
+      "vibration": 3.27,
+      "defrost": true,
+      "revision": 1
+    },
+    {
+      "unit": "F-09",
+      "minute": 570,
+      "reported": 571,
+      "pressure": 1068,
+      "scale": "kPa",
+      "vibration": 3.27,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-09",
+      "minute": 580,
+      "reported": 582,
+      "pressure": 1068,
+      "scale": "kPa",
+      "vibration": 3.27,
+      "defrost": true,
+      "revision": 1
+    },
+    {
+      "unit": "F-10",
+      "minute": 550,
+      "reported": 551,
+      "pressure": 1080,
+      "scale": "kPa",
+      "vibration": 3.47,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-10",
+      "minute": 560,
+      "reported": 562,
+      "pressure": 1080,
+      "scale": "kPa",
+      "vibration": 3.47,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-10",
+      "minute": 570,
+      "reported": 571,
+      "pressure": 995,
+      "scale": "kPa",
+      "vibration": 3.47,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-10",
+      "minute": 580,
+      "reported": 582,
+      "pressure": 910,
+      "scale": "kPa",
+      "vibration": 3.47,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-11",
+      "minute": 550,
+      "reported": 551,
+      "pressure": 1092,
+      "scale": "kPa",
+      "vibration": 3.6700000000000004,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-11",
+      "minute": 560,
+      "reported": 562,
+      "pressure": 1092,
+      "scale": "kPa",
+      "vibration": 5.390000000000001,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-11",
+      "minute": 570,
+      "reported": 571,
+      "pressure": 1092,
+      "scale": "kPa",
+      "vibration": 5.390000000000001,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-11",
+      "minute": 580,
+      "reported": 582,
+      "pressure": 1092,
+      "scale": "kPa",
+      "vibration": 5.390000000000001,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-12",
+      "minute": 550,
+      "reported": 551,
+      "pressure": 1104,
+      "scale": "kPa",
+      "vibration": 3.66,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-12",
+      "minute": 560,
+      "reported": 562,
+      "pressure": 1104,
+      "scale": "kPa",
+      "vibration": 3.66,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-12",
+      "minute": 570,
+      "reported": 571,
+      "pressure": 1104,
+      "scale": "kPa",
+      "vibration": 3.66,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-12",
+      "minute": 580,
+      "reported": 582,
+      "pressure": 1104,
+      "scale": "kPa",
+      "vibration": 3.66,
+      "defrost": false,
+      "revision": 1
+    },
+    {
+      "unit": "F-01",
+      "minute": 570,
+      "reported": 572,
+      "pressure": 972,
+      "scale": "kPa",
+      "vibration": 3.63,
+      "defrost": false,
+      "revision": 2
+    },
+    {
+      "unit": "F-01",
+      "minute": 570,
+      "reported": 573,
+      "pressure": 972,
+      "scale": "kPa",
+      "vibration": 3.68,
+      "defrost": false,
+      "revision": 2
+    },
+    {
+      "unit": "F-01",
+      "minute": 570,
+      "reported": 615,
+      "pressure": 972,
+      "scale": "kPa",
+      "vibration": 8.2,
+      "defrost": false,
+      "revision": 3
+    },
+    {
+      "unit": "F-01",
+      "minute": 549,
+      "reported": 545,
+      "pressure": 972,
+      "scale": "kPa",
+      "vibration": 3.96,
+      "defrost": false,
+      "revision": 4
+    },
+    {
+      "unit": "F-01",
+      "minute": 549,
+      "reported": 545,
+      "pressure": "码值溢出",
+      "scale": "kPa",
+      "vibration": 3.96,
+      "defrost": false,
+      "revision": 4
+    }
+  ],
+  "history": [
+    {
+      "unit": "F-01",
+      "family": "螺杆",
+      "minute": 130,
+      "pressure_kpa": 987,
+      "vibration": 1.99,
+      "defrost": false
+    },
+    {
+      "unit": "F-01",
+      "family": "螺杆",
+      "minute": 160,
+      "pressure_kpa": 1000,
+      "vibration": 2.15,
+      "defrost": false
+    },
+    {
+      "unit": "F-01",
+      "family": "螺杆",
+      "minute": 190,
+      "pressure_kpa": 982,
+      "vibration": 2.31,
+      "defrost": false
+    },
+    {
+      "unit": "F-01",
+      "family": "螺杆",
+      "minute": 220,
+      "pressure_kpa": 995,
+      "vibration": 2.4699999999999998,
+      "defrost": false
+    },
+    {
+      "unit": "F-01",
+      "family": "螺杆",
+      "minute": 250,
+      "pressure_kpa": 977,
+      "vibration": 2.11,
+      "defrost": false
+    },
+    {
+      "unit": "F-01",
+      "family": "螺杆",
+      "minute": 280,
+      "pressure_kpa": 990,
+      "vibration": 2.27,
+      "defrost": false
+    },
+    {
+      "unit": "F-01",
+      "family": "螺杆",
+      "minute": 310,
+      "pressure_kpa": 972,
+      "vibration": 2.43,
+      "defrost": false
+    },
+    {
+      "unit": "F-01",
+      "family": "螺杆",
+      "minute": 340,
+      "pressure_kpa": 985,
+      "vibration": 2.07,
+      "defrost": false
+    },
+    {
+      "unit": "F-01",
+      "family": "螺杆",
+      "minute": 370,
+      "pressure_kpa": 998,
+      "vibration": 2.23,
+      "defrost": false
+    },
+    {
+      "unit": "F-01",
+      "family": "螺杆",
+      "minute": 400,
+      "pressure_kpa": 980,
+      "vibration": 2.39,
+      "defrost": false
+    },
+    {
+      "unit": "F-01",
+      "family": "螺杆",
+      "minute": 430,
+      "pressure_kpa": 993,
+      "vibration": 2.03,
+      "defrost": false
+    },
+    {
+      "unit": "F-01",
+      "family": "螺杆",
+      "minute": 460,
+      "pressure_kpa": 975,
+      "vibration": 2.19,
+      "defrost": false
+    },
+    {
+      "unit": "F-02",
+      "family": "螺杆",
+      "minute": 130,
+      "pressure_kpa": 999,
+      "vibration": 2.12,
+      "defrost": false
+    },
+    {
+      "unit": "F-02",
+      "family": "螺杆",
+      "minute": 160,
+      "pressure_kpa": 1012,
+      "vibration": 2.2800000000000002,
+      "defrost": false
+    },
+    {
+      "unit": "F-02",
+      "family": "螺杆",
+      "minute": 190,
+      "pressure_kpa": 994,
+      "vibration": 2.4400000000000004,
+      "defrost": false
+    },
+    {
+      "unit": "F-02",
+      "family": "螺杆",
+      "minute": 220,
+      "pressure_kpa": 1007,
+      "vibration": 2.6000000000000005,
+      "defrost": false
+    },
+    {
+      "unit": "F-02",
+      "family": "螺杆",
+      "minute": 250,
+      "pressure_kpa": 989,
+      "vibration": 2.24,
+      "defrost": false
+    },
+    {
+      "unit": "F-02",
+      "family": "螺杆",
+      "minute": 280,
+      "pressure_kpa": 1002,
+      "vibration": 2.4000000000000004,
+      "defrost": false
+    },
+    {
+      "unit": "F-02",
+      "family": "螺杆",
+      "minute": 310,
+      "pressure_kpa": 984,
+      "vibration": 2.5600000000000005,
+      "defrost": false
+    },
+    {
+      "unit": "F-02",
+      "family": "螺杆",
+      "minute": 340,
+      "pressure_kpa": 997,
+      "vibration": 2.2,
+      "defrost": false
+    },
+    {
+      "unit": "F-02",
+      "family": "螺杆",
+      "minute": 370,
+      "pressure_kpa": 1010,
+      "vibration": 2.3600000000000003,
+      "defrost": false
+    },
+    {
+      "unit": "F-02",
+      "family": "螺杆",
+      "minute": 400,
+      "pressure_kpa": 992,
+      "vibration": 2.5200000000000005,
+      "defrost": false
+    },
+    {
+      "unit": "F-02",
+      "family": "螺杆",
+      "minute": 430,
+      "pressure_kpa": 1005,
+      "vibration": 2.16,
+      "defrost": false
+    },
+    {
+      "unit": "F-02",
+      "family": "螺杆",
+      "minute": 460,
+      "pressure_kpa": 987,
+      "vibration": 2.3200000000000003,
+      "defrost": false
+    },
+    {
+      "unit": "F-03",
+      "family": "螺杆",
+      "minute": 130,
+      "pressure_kpa": 1011,
+      "vibration": 2.25,
+      "defrost": false
+    },
+    {
+      "unit": "F-03",
+      "family": "螺杆",
+      "minute": 160,
+      "pressure_kpa": 1024,
+      "vibration": 2.41,
+      "defrost": false
+    },
+    {
+      "unit": "F-03",
+      "family": "螺杆",
+      "minute": 190,
+      "pressure_kpa": 1006,
+      "vibration": 2.5700000000000003,
+      "defrost": false
+    },
+    {
+      "unit": "F-03",
+      "family": "螺杆",
+      "minute": 220,
+      "pressure_kpa": 1019,
+      "vibration": 2.7300000000000004,
+      "defrost": false
+    },
+    {
+      "unit": "F-03",
+      "family": "螺杆",
+      "minute": 250,
+      "pressure_kpa": 1001,
+      "vibration": 2.37,
+      "defrost": false
+    },
+    {
+      "unit": "F-03",
+      "family": "螺杆",
+      "minute": 280,
+      "pressure_kpa": 1014,
+      "vibration": 2.5300000000000002,
+      "defrost": false
+    },
+    {
+      "unit": "F-03",
+      "family": "螺杆",
+      "minute": 310,
+      "pressure_kpa": 996,
+      "vibration": 2.6900000000000004,
+      "defrost": false
+    },
+    {
+      "unit": "F-03",
+      "family": "螺杆",
+      "minute": 340,
+      "pressure_kpa": 1009,
+      "vibration": 2.33,
+      "defrost": false
+    },
+    {
+      "unit": "F-03",
+      "family": "螺杆",
+      "minute": 370,
+      "pressure_kpa": 1022,
+      "vibration": 2.49,
+      "defrost": true
+    },
+    {
+      "unit": "F-03",
+      "family": "螺杆",
+      "minute": 400,
+      "pressure_kpa": 1004,
+      "vibration": 2.6500000000000004,
+      "defrost": false
+    },
+    {
+      "unit": "F-03",
+      "family": "螺杆",
+      "minute": 430,
+      "pressure_kpa": 1017,
+      "vibration": 2.29,
+      "defrost": false
+    },
+    {
+      "unit": "F-03",
+      "family": "螺杆",
+      "minute": 460,
+      "pressure_kpa": 999,
+      "vibration": 2.45,
+      "defrost": false
+    },
+    {
+      "unit": "F-04",
+      "family": "螺杆",
+      "minute": 130,
+      "pressure_kpa": 1023,
+      "vibration": 2.38,
+      "defrost": false
+    },
+    {
+      "unit": "F-04",
+      "family": "螺杆",
+      "minute": 160,
+      "pressure_kpa": 1036,
+      "vibration": 2.54,
+      "defrost": false
+    },
+    {
+      "unit": "F-04",
+      "family": "螺杆",
+      "minute": 190,
+      "pressure_kpa": 1018,
+      "vibration": 2.7,
+      "defrost": false
+    },
+    {
+      "unit": "F-04",
+      "family": "螺杆",
+      "minute": 220,
+      "pressure_kpa": 1031,
+      "vibration": 2.8600000000000003,
+      "defrost": false
+    },
+    {
+      "unit": "F-04",
+      "family": "螺杆",
+      "minute": 250,
+      "pressure_kpa": 1013,
+      "vibration": 2.5,
+      "defrost": false
+    },
+    {
+      "unit": "F-04",
+      "family": "螺杆",
+      "minute": 280,
+      "pressure_kpa": 1026,
+      "vibration": 2.66,
+      "defrost": false
+    },
+    {
+      "unit": "F-04",
+      "family": "螺杆",
+      "minute": 310,
+      "pressure_kpa": 1008,
+      "vibration": 2.8200000000000003,
+      "defrost": false
+    },
+    {
+      "unit": "F-04",
+      "family": "螺杆",
+      "minute": 340,
+      "pressure_kpa": 1021,
+      "vibration": 2.46,
+      "defrost": false
+    },
+    {
+      "unit": "F-04",
+      "family": "螺杆",
+      "minute": 370,
+      "pressure_kpa": 1034,
+      "vibration": 2.62,
+      "defrost": false
+    },
+    {
+      "unit": "F-04",
+      "family": "螺杆",
+      "minute": 400,
+      "pressure_kpa": 1016,
+      "vibration": 2.7800000000000002,
+      "defrost": false
+    },
+    {
+      "unit": "F-04",
+      "family": "螺杆",
+      "minute": 430,
+      "pressure_kpa": 1029,
+      "vibration": 2.42,
+      "defrost": false
+    },
+    {
+      "unit": "F-04",
+      "family": "螺杆",
+      "minute": 460,
+      "pressure_kpa": 1011,
+      "vibration": 2.58,
+      "defrost": false
+    },
+    {
+      "unit": "F-05",
+      "family": "螺杆",
+      "minute": 130,
+      "pressure_kpa": 1035,
+      "vibration": 2.51,
+      "defrost": false
+    },
+    {
+      "unit": "F-05",
+      "family": "螺杆",
+      "minute": 160,
+      "pressure_kpa": 1048,
+      "vibration": 2.67,
+      "defrost": false
+    },
+    {
+      "unit": "F-05",
+      "family": "螺杆",
+      "minute": 190,
+      "pressure_kpa": 1030,
+      "vibration": 2.83,
+      "defrost": false
+    },
+    {
+      "unit": "F-05",
+      "family": "螺杆",
+      "minute": 220,
+      "pressure_kpa": 1043,
+      "vibration": 2.99,
+      "defrost": false
+    },
+    {
+      "unit": "F-05",
+      "family": "螺杆",
+      "minute": 250,
+      "pressure_kpa": 1025,
+      "vibration": 2.63,
+      "defrost": false
+    },
+    {
+      "unit": "F-05",
+      "family": "螺杆",
+      "minute": 280,
+      "pressure_kpa": 1038,
+      "vibration": 2.79,
+      "defrost": false
+    },
+    {
+      "unit": "F-05",
+      "family": "螺杆",
+      "minute": 310,
+      "pressure_kpa": 1020,
+      "vibration": 2.95,
+      "defrost": false
+    },
+    {
+      "unit": "F-05",
+      "family": "螺杆",
+      "minute": 340,
+      "pressure_kpa": 1033,
+      "vibration": 2.59,
+      "defrost": false
+    },
+    {
+      "unit": "F-05",
+      "family": "螺杆",
+      "minute": 370,
+      "pressure_kpa": 1046,
+      "vibration": 2.75,
+      "defrost": false
+    },
+    {
+      "unit": "F-05",
+      "family": "螺杆",
+      "minute": 400,
+      "pressure_kpa": 1028,
+      "vibration": 2.91,
+      "defrost": false
+    },
+    {
+      "unit": "F-05",
+      "family": "螺杆",
+      "minute": 430,
+      "pressure_kpa": 1041,
+      "vibration": 2.55,
+      "defrost": false
+    },
+    {
+      "unit": "F-05",
+      "family": "螺杆",
+      "minute": 460,
+      "pressure_kpa": 1023,
+      "vibration": 2.71,
+      "defrost": false
+    },
+    {
+      "unit": "F-06",
+      "family": "螺杆",
+      "minute": 130,
+      "pressure_kpa": 1047,
+      "vibration": 2.6399999999999997,
+      "defrost": false
+    },
+    {
+      "unit": "F-06",
+      "family": "螺杆",
+      "minute": 160,
+      "pressure_kpa": 1060,
+      "vibration": 2.8,
+      "defrost": false
+    },
+    {
+      "unit": "F-06",
+      "family": "螺杆",
+      "minute": 190,
+      "pressure_kpa": 1042,
+      "vibration": 2.96,
+      "defrost": false
+    },
+    {
+      "unit": "F-06",
+      "family": "螺杆",
+      "minute": 220,
+      "pressure_kpa": 1055,
+      "vibration": 3.12,
+      "defrost": false
+    },
+    {
+      "unit": "F-06",
+      "family": "螺杆",
+      "minute": 250,
+      "pressure_kpa": 1037,
+      "vibration": 2.76,
+      "defrost": false
+    },
+    {
+      "unit": "F-06",
+      "family": "螺杆",
+      "minute": 280,
+      "pressure_kpa": 1050,
+      "vibration": 2.92,
+      "defrost": false
+    },
+    {
+      "unit": "F-06",
+      "family": "螺杆",
+      "minute": 310,
+      "pressure_kpa": 1032,
+      "vibration": 3.08,
+      "defrost": false
+    },
+    {
+      "unit": "F-06",
+      "family": "螺杆",
+      "minute": 340,
+      "pressure_kpa": 1045,
+      "vibration": 2.7199999999999998,
+      "defrost": false
+    },
+    {
+      "unit": "F-06",
+      "family": "螺杆",
+      "minute": 370,
+      "pressure_kpa": 1058,
+      "vibration": 2.88,
+      "defrost": true
+    },
+    {
+      "unit": "F-06",
+      "family": "螺杆",
+      "minute": 400,
+      "pressure_kpa": 1040,
+      "vibration": 3.04,
+      "defrost": false
+    },
+    {
+      "unit": "F-06",
+      "family": "螺杆",
+      "minute": 430,
+      "pressure_kpa": 1053,
+      "vibration": 2.6799999999999997,
+      "defrost": false
+    },
+    {
+      "unit": "F-06",
+      "family": "螺杆",
+      "minute": 460,
+      "pressure_kpa": 1035,
+      "vibration": 2.84,
+      "defrost": false
+    },
+    {
+      "unit": "F-07",
+      "family": "螺杆",
+      "minute": 130,
+      "pressure_kpa": 1059,
+      "vibration": 2.7700000000000005,
+      "defrost": false
+    },
+    {
+      "unit": "F-07",
+      "family": "螺杆",
+      "minute": 160,
+      "pressure_kpa": 1072,
+      "vibration": 2.93,
+      "defrost": false
+    },
+    {
+      "unit": "F-07",
+      "family": "螺杆",
+      "minute": 190,
+      "pressure_kpa": 1054,
+      "vibration": 3.0900000000000003,
+      "defrost": false
+    },
+    {
+      "unit": "F-07",
+      "family": "螺杆",
+      "minute": 220,
+      "pressure_kpa": 1067,
+      "vibration": 3.25,
+      "defrost": false
+    },
+    {
+      "unit": "F-07",
+      "family": "螺杆",
+      "minute": 250,
+      "pressure_kpa": 1049,
+      "vibration": 2.89,
+      "defrost": false
+    },
+    {
+      "unit": "F-07",
+      "family": "螺杆",
+      "minute": 280,
+      "pressure_kpa": 1062,
+      "vibration": 3.0500000000000003,
+      "defrost": false
+    },
+    {
+      "unit": "F-07",
+      "family": "螺杆",
+      "minute": 310,
+      "pressure_kpa": 1044,
+      "vibration": 3.2100000000000004,
+      "defrost": false
+    },
+    {
+      "unit": "F-07",
+      "family": "螺杆",
+      "minute": 340,
+      "pressure_kpa": 1057,
+      "vibration": 2.85,
+      "defrost": false
+    },
+    {
+      "unit": "F-07",
+      "family": "螺杆",
+      "minute": 370,
+      "pressure_kpa": 1070,
+      "vibration": 3.0100000000000002,
+      "defrost": false
+    },
+    {
+      "unit": "F-07",
+      "family": "螺杆",
+      "minute": 400,
+      "pressure_kpa": 1052,
+      "vibration": 3.1700000000000004,
+      "defrost": false
+    },
+    {
+      "unit": "F-07",
+      "family": "螺杆",
+      "minute": 430,
+      "pressure_kpa": 1065,
+      "vibration": 2.81,
+      "defrost": false
+    },
+    {
+      "unit": "F-07",
+      "family": "螺杆",
+      "minute": 460,
+      "pressure_kpa": 1047,
+      "vibration": 2.97,
+      "defrost": false
+    },
+    {
+      "unit": "F-08",
+      "family": "涡旋",
+      "minute": 130,
+      "pressure_kpa": 1071,
+      "vibration": 2.9000000000000004,
+      "defrost": false
+    },
+    {
+      "unit": "F-08",
+      "family": "涡旋",
+      "minute": 160,
+      "pressure_kpa": 1084,
+      "vibration": 3.06,
+      "defrost": false
+    },
+    {
+      "unit": "F-08",
+      "family": "涡旋",
+      "minute": 190,
+      "pressure_kpa": 1066,
+      "vibration": 3.22,
+      "defrost": false
+    },
+    {
+      "unit": "F-08",
+      "family": "涡旋",
+      "minute": 220,
+      "pressure_kpa": 1079,
+      "vibration": 3.38,
+      "defrost": false
+    },
+    {
+      "unit": "F-08",
+      "family": "涡旋",
+      "minute": 250,
+      "pressure_kpa": 1061,
+      "vibration": 3.02,
+      "defrost": false
+    },
+    {
+      "unit": "F-08",
+      "family": "涡旋",
+      "minute": 280,
+      "pressure_kpa": 1074,
+      "vibration": 3.18,
+      "defrost": false
+    },
+    {
+      "unit": "F-08",
+      "family": "涡旋",
+      "minute": 310,
+      "pressure_kpa": 1056,
+      "vibration": 3.3400000000000003,
+      "defrost": false
+    },
+    {
+      "unit": "F-08",
+      "family": "涡旋",
+      "minute": 340,
+      "pressure_kpa": 1069,
+      "vibration": 2.98,
+      "defrost": false
+    },
+    {
+      "unit": "F-08",
+      "family": "涡旋",
+      "minute": 370,
+      "pressure_kpa": 1082,
+      "vibration": 3.14,
+      "defrost": false
+    },
+    {
+      "unit": "F-08",
+      "family": "涡旋",
+      "minute": 400,
+      "pressure_kpa": 1064,
+      "vibration": 3.3000000000000003,
+      "defrost": false
+    },
+    {
+      "unit": "F-08",
+      "family": "涡旋",
+      "minute": 430,
+      "pressure_kpa": 1077,
+      "vibration": 2.94,
+      "defrost": false
+    },
+    {
+      "unit": "F-08",
+      "family": "涡旋",
+      "minute": 460,
+      "pressure_kpa": 1059,
+      "vibration": 3.1,
+      "defrost": false
+    },
+    {
+      "unit": "F-09",
+      "family": "涡旋",
+      "minute": 130,
+      "pressure_kpa": 1083,
+      "vibration": 3.0300000000000002,
+      "defrost": false
+    },
+    {
+      "unit": "F-09",
+      "family": "涡旋",
+      "minute": 160,
+      "pressure_kpa": 1096,
+      "vibration": 3.19,
+      "defrost": false
+    },
+    {
+      "unit": "F-09",
+      "family": "涡旋",
+      "minute": 190,
+      "pressure_kpa": 1078,
+      "vibration": 3.35,
+      "defrost": false
+    },
+    {
+      "unit": "F-09",
+      "family": "涡旋",
+      "minute": 220,
+      "pressure_kpa": 1091,
+      "vibration": 3.51,
+      "defrost": false
+    },
+    {
+      "unit": "F-09",
+      "family": "涡旋",
+      "minute": 250,
+      "pressure_kpa": 1073,
+      "vibration": 3.15,
+      "defrost": false
+    },
+    {
+      "unit": "F-09",
+      "family": "涡旋",
+      "minute": 280,
+      "pressure_kpa": 1086,
+      "vibration": 3.31,
+      "defrost": false
+    },
+    {
+      "unit": "F-09",
+      "family": "涡旋",
+      "minute": 310,
+      "pressure_kpa": 1068,
+      "vibration": 3.47,
+      "defrost": false
+    },
+    {
+      "unit": "F-09",
+      "family": "涡旋",
+      "minute": 340,
+      "pressure_kpa": 1081,
+      "vibration": 3.11,
+      "defrost": false
+    },
+    {
+      "unit": "F-09",
+      "family": "涡旋",
+      "minute": 370,
+      "pressure_kpa": 1094,
+      "vibration": 3.27,
+      "defrost": true
+    },
+    {
+      "unit": "F-09",
+      "family": "涡旋",
+      "minute": 400,
+      "pressure_kpa": 1076,
+      "vibration": 3.43,
+      "defrost": false
+    },
+    {
+      "unit": "F-09",
+      "family": "涡旋",
+      "minute": 430,
+      "pressure_kpa": 1089,
+      "vibration": 3.07,
+      "defrost": false
+    },
+    {
+      "unit": "F-09",
+      "family": "涡旋",
+      "minute": 460,
+      "pressure_kpa": 1071,
+      "vibration": 3.23,
+      "defrost": false
+    },
+    {
+      "unit": "F-10",
+      "family": "涡旋",
+      "minute": 130,
+      "pressure_kpa": 1095,
+      "vibration": 3.16,
+      "defrost": false
+    },
+    {
+      "unit": "F-10",
+      "family": "涡旋",
+      "minute": 160,
+      "pressure_kpa": 1108,
+      "vibration": 3.3200000000000003,
+      "defrost": false
+    },
+    {
+      "unit": "F-10",
+      "family": "涡旋",
+      "minute": 190,
+      "pressure_kpa": 1090,
+      "vibration": 3.4800000000000004,
+      "defrost": false
+    },
+    {
+      "unit": "F-10",
+      "family": "涡旋",
+      "minute": 220,
+      "pressure_kpa": 1103,
+      "vibration": 3.6400000000000006,
+      "defrost": false
+    },
+    {
+      "unit": "F-10",
+      "family": "涡旋",
+      "minute": 250,
+      "pressure_kpa": 1085,
+      "vibration": 3.2800000000000002,
+      "defrost": false
+    },
+    {
+      "unit": "F-10",
+      "family": "涡旋",
+      "minute": 280,
+      "pressure_kpa": 1098,
+      "vibration": 3.4400000000000004,
+      "defrost": false
+    },
+    {
+      "unit": "F-10",
+      "family": "涡旋",
+      "minute": 310,
+      "pressure_kpa": 1080,
+      "vibration": 3.6000000000000005,
+      "defrost": false
+    },
+    {
+      "unit": "F-10",
+      "family": "涡旋",
+      "minute": 340,
+      "pressure_kpa": 1093,
+      "vibration": 3.24,
+      "defrost": false
+    },
+    {
+      "unit": "F-10",
+      "family": "涡旋",
+      "minute": 370,
+      "pressure_kpa": 1106,
+      "vibration": 3.4000000000000004,
+      "defrost": false
+    },
+    {
+      "unit": "F-10",
+      "family": "涡旋",
+      "minute": 400,
+      "pressure_kpa": 1088,
+      "vibration": 3.5600000000000005,
+      "defrost": false
+    },
+    {
+      "unit": "F-10",
+      "family": "涡旋",
+      "minute": 430,
+      "pressure_kpa": 1101,
+      "vibration": 3.2,
+      "defrost": false
+    },
+    {
+      "unit": "F-10",
+      "family": "涡旋",
+      "minute": 460,
+      "pressure_kpa": 1083,
+      "vibration": 3.3600000000000003,
+      "defrost": false
+    },
+    {
+      "unit": "F-11",
+      "family": "涡旋",
+      "minute": 130,
+      "pressure_kpa": 1107,
+      "vibration": 3.29,
+      "defrost": false
+    },
+    {
+      "unit": "F-11",
+      "family": "涡旋",
+      "minute": 160,
+      "pressure_kpa": 1120,
+      "vibration": 3.45,
+      "defrost": false
+    },
+    {
+      "unit": "F-11",
+      "family": "涡旋",
+      "minute": 190,
+      "pressure_kpa": 1102,
+      "vibration": 3.6100000000000003,
+      "defrost": false
+    },
+    {
+      "unit": "F-11",
+      "family": "涡旋",
+      "minute": 220,
+      "pressure_kpa": 1115,
+      "vibration": 3.7700000000000005,
+      "defrost": false
+    },
+    {
+      "unit": "F-11",
+      "family": "涡旋",
+      "minute": 250,
+      "pressure_kpa": 1097,
+      "vibration": 3.41,
+      "defrost": false
+    },
+    {
+      "unit": "F-11",
+      "family": "涡旋",
+      "minute": 280,
+      "pressure_kpa": 1110,
+      "vibration": 3.5700000000000003,
+      "defrost": false
+    },
+    {
+      "unit": "F-11",
+      "family": "涡旋",
+      "minute": 310,
+      "pressure_kpa": 1092,
+      "vibration": 3.7300000000000004,
+      "defrost": false
+    },
+    {
+      "unit": "F-11",
+      "family": "涡旋",
+      "minute": 340,
+      "pressure_kpa": 1105,
+      "vibration": 3.37,
+      "defrost": false
+    },
+    {
+      "unit": "F-11",
+      "family": "涡旋",
+      "minute": 370,
+      "pressure_kpa": 1118,
+      "vibration": 3.5300000000000002,
+      "defrost": false
+    },
+    {
+      "unit": "F-11",
+      "family": "涡旋",
+      "minute": 400,
+      "pressure_kpa": 1100,
+      "vibration": 3.6900000000000004,
+      "defrost": false
+    },
+    {
+      "unit": "F-11",
+      "family": "涡旋",
+      "minute": 430,
+      "pressure_kpa": 1113,
+      "vibration": 3.33,
+      "defrost": false
+    },
+    {
+      "unit": "F-11",
+      "family": "涡旋",
+      "minute": 460,
+      "pressure_kpa": 1095,
+      "vibration": 3.49,
+      "defrost": false
+    },
+    {
+      "unit": "F-12",
+      "family": "涡旋",
+      "minute": 130,
+      "pressure_kpa": 1119,
+      "vibration": 3.42,
+      "defrost": false
+    },
+    {
+      "unit": "F-12",
+      "family": "涡旋",
+      "minute": 160,
+      "pressure_kpa": 1132,
+      "vibration": 3.58,
+      "defrost": false
+    },
+    {
+      "unit": "F-12",
+      "family": "涡旋",
+      "minute": 190,
+      "pressure_kpa": 1114,
+      "vibration": 3.74,
+      "defrost": false
+    }
+  ],
+  "work": [
+    {
+      "unit": "F-01",
+      "rack": "R-1",
+      "runtime": 32,
+      "has_backup": true,
+      "allowed_start": 612,
+      "allowed_end": 682
+    },
+    {
+      "unit": "F-02",
+      "rack": "R-1",
+      "runtime": 40,
+      "has_backup": true,
+      "allowed_start": 624,
+      "allowed_end": 690
+    },
+    {
+      "unit": "F-03",
+      "rack": "R-2",
+      "runtime": 24,
+      "has_backup": false,
+      "allowed_start": 636,
+      "allowed_end": 698
+    },
+    {
+      "unit": "F-04",
+      "rack": "R-2",
+      "runtime": 32,
+      "has_backup": true,
+      "allowed_start": 600,
+      "allowed_end": 706
+    },
+    {
+      "unit": "F-05",
+      "rack": "R-3",
+      "runtime": 40,
+      "has_backup": true,
+      "allowed_start": 612,
+      "allowed_end": 674
+    },
+    {
+      "unit": "F-06",
+      "rack": "R-3",
+      "runtime": 24,
+      "has_backup": true,
+      "allowed_start": 624,
+      "allowed_end": 682
+    },
+    {
+      "unit": "F-07",
+      "rack": "R-4",
+      "runtime": 32,
+      "has_backup": true,
+      "allowed_start": 636,
+      "allowed_end": 690
+    },
+    {
+      "unit": "F-08",
+      "rack": "R-4",
+      "runtime": 40,
+      "has_backup": true,
+      "allowed_start": 600,
+      "allowed_end": 698
+    },
+    {
+      "unit": "F-09",
+      "rack": "R-5",
+      "runtime": 24,
+      "has_backup": true,
+      "allowed_start": 612,
+      "allowed_end": 706
+    },
+    {
+      "unit": "F-10",
+      "rack": "R-5",
+      "runtime": 32,
+      "has_backup": false,
+      "allowed_start": 624,
+      "allowed_end": 674
+    },
+    {
+      "unit": "F-11",
+      "rack": "R-6",
+      "runtime": 40,
+      "has_backup": true,
+      "allowed_start": 636,
+      "allowed_end": 682
+    },
+    {
+      "unit": "F-12",
+      "rack": "R-6",
+      "runtime": 24,
+      "has_backup": true,
+      "allowed_start": 600,
+      "allowed_end": 690
+    }
+  ],
+  "closed": [
+    {
+      "unit": "F-01",
+      "minute": 303,
+      "score": 0.08,
+      "alarm": false,
+      "inspected": true,
+      "confirmed": false,
+      "measured": 390
+    },
+    {
+      "unit": "F-02",
+      "minute": 306,
+      "score": 0.16,
+      "alarm": false,
+      "inspected": true,
+      "confirmed": false,
+      "measured": 392
+    },
+    {
+      "unit": "F-03",
+      "minute": 309,
+      "score": 0.24,
+      "alarm": false,
+      "inspected": true,
+      "confirmed": false,
+      "measured": 394
+    },
+    {
+      "unit": "F-04",
+      "minute": 312,
+      "score": 0.32,
+      "alarm": false,
+      "inspected": true,
+      "confirmed": false,
+      "measured": 396
+    },
+    {
+      "unit": "F-05",
+      "minute": 315,
+      "score": 0.4,
+      "alarm": false,
+      "inspected": false,
+      "confirmed": false,
+      "measured": 398
+    },
+    {
+      "unit": "F-06",
+      "minute": 318,
+      "score": 0.48,
+      "alarm": false,
+      "inspected": true,
+      "confirmed": false,
+      "measured": 400
+    },
+    {
+      "unit": "F-07",
+      "minute": 321,
+      "score": 0.56,
+      "alarm": false,
+      "inspected": true,
+      "confirmed": true,
+      "measured": 402
+    },
+    {
+      "unit": "F-08",
+      "minute": 324,
+      "score": 0.64,
+      "alarm": false,
+      "inspected": true,
+      "confirmed": false,
+      "measured": 404
+    },
+    {
+      "unit": "F-09",
+      "minute": 327,
+      "score": 0.72,
+      "alarm": true,
+      "inspected": true,
+      "confirmed": true,
+      "measured": 406
+    },
+    {
+      "unit": "F-10",
+      "minute": 330,
+      "score": 0.8,
+      "alarm": true,
+      "inspected": true,
+      "confirmed": true,
+      "measured": 408
+    },
+    {
+      "unit": "F-11",
+      "minute": 333,
+      "score": 0.88,
+      "alarm": true,
+      "inspected": true,
+      "confirmed": false,
+      "measured": 410
+    },
+    {
+      "unit": "F-12",
+      "minute": 336,
+      "score": 0.96,
+      "alarm": true,
+      "inspected": true,
+      "confirmed": true,
+      "measured": 412
+    }
+  ]
+}

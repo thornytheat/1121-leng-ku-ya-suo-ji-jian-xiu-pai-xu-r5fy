@@ -1,0 +1,11 @@
+:root {
+    color-scheme: dark;
+    --bg: #15212e; --background: var(--bg);
+    --surface: #1d2b3b; --ink: #edf4fd; --muted: #a6bed4;
+    --accent: #82c8ff; --border: #3b5066; --wash: #213e59;
+    --rail: #0d1722; --on-rail: #dcecff; --on-accent: #15221a;
+    --error: #ffc0b5;
+    --display: "SFMono-Regular",monospace; --type: "PingFang SC",sans-serif;
+    --radius: 4px; --gutter: 26px; --title: 32px;
+    --base: 13px;
+}
